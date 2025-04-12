@@ -1,1 +1,1 @@
-i have solved some problems in hackerrank as well but here we go with leetcode :)
+I've solved several problems on HackerRank, but now let's dive into LeetCode! :)
