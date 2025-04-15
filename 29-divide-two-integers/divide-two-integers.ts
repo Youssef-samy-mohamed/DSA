@@ -34,3 +34,10 @@ function divide(dividend: number, divisor: number): number {
 
     return negatives === 1 ? -quotient : quotient;
 }
+
+//  this how i solved it 10 ÷ 3
+→ 10 - 3 = 7 → 1
+→ 7 - 3 = 4 → 2
+→ 4 - 3 = 1 → 3
+→ 1 < 3 → stop
+→ result = 3
