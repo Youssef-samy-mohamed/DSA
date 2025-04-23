@@ -17,3 +17,16 @@ function getRow(rowIndex: number): number[] {
     }
     return row
 };
+//// better approach 
+// function getRow(rowIndex: number): number[] {
+//     const row = [1];
+//     let prev = 1;
+
+//     for (let k = 1; k <= rowIndex; k++) {
+//         const curr = (prev * (rowIndex - k + 1)) / k;
+//         row.push(curr);
+//         prev = curr;
+//     }
+
+//     return row;
+// }
