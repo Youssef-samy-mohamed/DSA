@@ -9,6 +9,6 @@ function majorityElement(nums: number[]): number {
             return num;
         }
     }
-
+// hashmap // index signture all the way :)
     return -1;
 }
