@@ -10,9 +10,9 @@ function merge(intervals: number[][]): number[][] {
 
     if ( intervals.length <= 1 ) return intervals;
 
-//  sort the fisrt element in the array 
+//  sort the first element in the first array with the first element in the second array 
     intervals.sort(( a , b ) => a[0] - b[0])
-
+//   this is where my result is 
     const merged: number[][] = [];
     let current = intervals[0]
 
